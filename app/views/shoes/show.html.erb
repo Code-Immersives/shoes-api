@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @shoe.color %>
+</p>
+
+<p>
+  <strong>Size:</strong>
+  <%= @shoe.size %>
+</p>
+
+<p>
+  <strong>Brand:</strong>
+  <%= @shoe.brand %>
+</p>
+
+<p>
+  <strong>Imgurl:</strong>
+  <%= @shoe.imgURL %>
+</p>
+
+<%= link_to 'Edit', edit_shoe_path(@shoe) %> |
+<%= link_to 'Back', shoes_path %>
